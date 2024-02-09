@@ -194,6 +194,8 @@ nav ul li{
 .skills-wrapper img,h4{
     padding: 0.5rem;
     align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
 }
 .first-set,.second-set{
     display: flex;
@@ -398,12 +400,12 @@ nav ul li{
         
     }
     .hero img{
-        height: 25rem;
-        width: 25rem;
-        margin-top: 2rem;
+        height: 20rem;
+        width: 20rem;
+        margin-top: 4rem;
     }
     .bio-data{
-        margin-top: -1rem;
+        margin-top: 1rem;
         width:25rem;
     }
     .resume img{
@@ -413,7 +415,7 @@ nav ul li{
         width: 20px; 
     }
     .resume h4{
-        margin-top: -1.4rem;
+        margin-top: -3.7rem;
     }
 
     .more-about{
