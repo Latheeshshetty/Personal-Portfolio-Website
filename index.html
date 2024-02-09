@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!--css style-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/profile-icon.png"/>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/profile-icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Latheesh-portfolio</title>
+
+</head>
+<body>
+    <!--Navbar-->
+
+    <nav>
+
+        <h1>Latheesh Shetty</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline">=</ion-icon>
+        </button>
+
+    </nav>
+
+    <!--Hero Section-->
+    <section class="hero" id="about">
+        <img src="assets/profile-icon.png" alt="latheesh" loading="lazy" class="hero-img"/>
+        <div class="bio">
+        <div class="bio-data">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+            
+        </div>
+        <div class="resume">
+            <h4 class="resume-title">My Resume : <a href="assets/Latheesh_shetty_cv.pdf" download><img src="assets/icons8-download.gif" alt="download" loading="lazy" class="dowload-icon"></a></h4>
+        </div>
+    </div>
+        
+    </section>
+
+
+    <!--More about-->
+
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        
+    </section>
+    
+    <!--Skills Section-->
+
+    <section class="skills" id="skills">
+        <h2 class="skills-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set">
+                <h4 class="skill-title"><img src="assets/icons8-html-48.png" alt="Html" loading="lazy" class="icon icon-card">Html</h4>
+                <h4 class="skill-title"> <img src="assets/icons8-css-48.png" alt="Css" loading="lazy" class="icon icon-card">Css</h4>
+                <h4 class="skill-title"><img src="assets/icons8-js-48.png" alt="Js" loading="lazy" class="icon icon-card">JavaScript</h4>
+            </div>
+            <div class="second-set">
+                <h4 class="skill-title"><img src="assets/icons8-bootstrap-48.png" alt="bootstrap" loading="lazy" class="icon icon-card">Bootstrap</h4>
+                <h4 class="skill-title"> <img src="assets/icons8-react-40.png" alt="react" loading="lazy" class="icon icon-card">React</h4>
+                <h4 class="skill-title"><img src="assets/icons8-git-48.png" alt="Git" loading="lazy" class="icon icon-card">Git</h4>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!--Projects Section-->
+
+    <section class="projects" id="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/profile-icon.png" alt="ex" loading="lazy" class="project-pic">
+                <h3 class="project-title">Ex</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" target="_blank" class="project-link">Check it out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/profile-icon.png" alt="rx" loading="lazy" class="project-pic">
+                <h3 class="project-title">Rx</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" target="_blank" class="project-link">Check it out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/profile-icon.png" alt="tx" loading="lazy" class="project-pic">
+                <h3 class="project-title">Tx</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" target="_blank" class="project-link">Check it out</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact section-->
+
+    <section class="contact" id="contact">
+        <h2 class="contact-title">To Contact Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mdoqewrg" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter your Name" class="input-field" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="sender-email" placeholder="Enter your Emailid" class="input-field" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message"  cols="60" rows="10" name="sender-message" placeholder="Enter your Message" class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn">
+
+                </form>
+            </div>
+        </div>
+    </section>
+ 
+    <!--Social account -fixed to the right-->
+
+    <div class="socials">
+        <a href="https://x.com/latheeshshetty_?t=b2SVOhmxK7h-rlYZJlsRUA&s=09" target="_blank">
+            <img src="assets/icons8-twitterx-48.png" alt="twitter" loading="lazy" class="socicon">
+        </a>
+        <a href="https://www.linkedin.com/in/latheesh-shetty-b385691b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="assets/icons8-linkedin.gif" alt="Linkedin" loading="lazy" class="socicon">
+        </a>
+        <a href="https://www.instagram.com/latheesh_shetty?igsh=YzVkODRmOTdmMw==" target="_blank">
+            <img src="assets/icons8-instagram.gif" alt="instagram" loading="lazy" class="socicon">
+        </a>
+        <a href="https://github.com/Latheeshshetty" target="_blank">
+            <img src="assets/icons8-github.gif" alt="github" loading="lazy" class="socicon">
+        </a>
+    </div>
+
+    <!--Scroll to top-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icons8-scroll-up.gif" class="socion-up-arrow" alt="scroll-up">
+    </i>
+
+    <!--Footer section-->
+
+    <footer>
+        <p class="copy">&copy; Copyright 2024</p>
+        <p class="copy">Build with &#x2661; by <a href="#" target="_blank">Latheesh</a></p>
+    </footer>
+
+    <!--Website Scripts-->
+
+    <script src="assets/script.js"></script>
+
+    <!--Ion icons scripts-->
+
+    <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
