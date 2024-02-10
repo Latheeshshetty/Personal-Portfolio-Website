@@ -11,8 +11,8 @@
 
 /*variables*/
 :root{
-    --font-family: "Roboto",sans-seref;
-    --font-family2:"Open Sans",sans-seref;
+    --font-family: "Fira Sans Black";
+    --font-family2:"PT Serif";
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
