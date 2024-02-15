@@ -309,6 +309,8 @@ nav ul li{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    
     border-radius: 5px;
     border:none;
     border:2px outset var(--primary-color);
@@ -320,8 +322,11 @@ nav ul li{
 
 
 .input-field::placeholder{
-    padding: 0.5rem;
     color: var(--primary-color);
+}
+.textArea::placeholder{
+    font-size: 16px;
+    letter-spacing: -0.05rem;
 }
 
 .submit-btn{
