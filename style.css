@@ -203,11 +203,12 @@ nav ul li{
     padding: 0.5rem;
     align-items: center;
     justify-content: center;
-    color: var(--primary-color);
+    color: white;
 }
 .first-set,.second-set{
     display: flex;
     justify-content: center;
+    
 }
 
 
@@ -220,6 +221,7 @@ nav ul li{
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
+    border-bottom:30px solid var(--primary-color);
     
 }
 
@@ -276,6 +278,11 @@ nav ul li{
     padding:20px;
     margin: 10px
 }
+.project-card:hover{
+    width:30rem;
+    box-shadow: 0 0 10px rgb(77, 77, 202);
+    transition: 0.1s ease-in;
+}
 
 /*contacts*/
 
@@ -319,6 +326,11 @@ nav ul li{
     display: block;
     
 }
+
+.contact-form-container .input-field:hover{
+    box-shadow: 0 0 10px rgb(19, 113, 201);
+}
+
 
 
 .input-field::placeholder{
@@ -493,8 +505,8 @@ nav ul li{
 @media screen and(max-width:420px) {
 
     .hero img{
-        width: 15rem;
-        height: 15rem;
+        width: 12rem;
+        height: 12rem;
     }
     
     .bio-data{
@@ -511,6 +523,9 @@ nav ul li{
     }
     .contact-form-container{
         max-width: 15rem;
+    }
+    .project-card:hover{
+        width: 15rem;
     }
 }
 
