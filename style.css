@@ -28,6 +28,9 @@
 
 
 }
+*{
+    box-sizing: border-box;
+}
 /*variable-end*/
 
 html{
@@ -189,27 +192,56 @@ nav ul li{
 /*Skills*/
 
 .skills{
-    max-width: 70rem;
+    max-width: 60rem;
     margin:auto;
     text-align: center;
     margin-top: 2.5rem;
+    
+    
+    
 
 }
 .skills-header{
     margin-bottom: 1rem;
 }
 
-.skills-wrapper img,h4{
-    padding: 0.5rem;
-    align-items: center;
+.skills-wrap{
+    
+    width: 500px;
+    margin: 25px auto;
     justify-content: center;
-    color: white;
-}
-.first-set,.second-set{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap:15px;
     
 }
+.skill-card{
+    
+    width: 130px;
+    height: 130px;
+    padding: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    border-bottom:38px solid #6977ee;
+    
+
+}
+.skill-card>.image{
+    width: 70px;
+    height: 70px;
+    
+}
+.skill-card>.caption{
+    margin-top: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    font-family: var(--font-family2);
+}
+
+
+
+
 
 
 
@@ -230,6 +262,7 @@ nav ul li{
 .projects{
     background-color: var(--bg-color);
     padding: 32px 0;
+    margin-top: 25px;
 
 }
 
@@ -478,10 +511,12 @@ nav ul li{
     .more-about p{
         text-align: justify;
     }
-    .icon{
-        width: 5rem;
-        height: 5rem;
-        margin-top: -1rem;
+    .skills{
+        height: 460px;
+    }
+    .skills-wrap{
+        height: 200px;
+        width: 400px;
     }
 
     .projects-container{
@@ -493,6 +528,9 @@ nav ul li{
     .project-pic{
         width: 10rem;
         height: 10rem;
+    }
+    .project-card:hover{
+        width: 25rem;
     }
     .contact-form-container{
         max-width: 25rem;
